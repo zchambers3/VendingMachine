@@ -1,4 +1,50 @@
-# VendingMachine
+Program:
+Vending Machine
 
-Vending machine project.
-Storyboard and UML.
+Author:
+Zack Chambers
+
+Summary:
+Final Project for CST-135
+
+Date:
+9/3/2018 - 10/21/2018
+
+Description:
+The vending machine will have two types of users – a customer, who will be able to select a product, and a BOSS, who will be able to maintain the collection of products in the machine. The machine itself will have a graphical interface that displays the available products and allows the user to make selections. The BOSS will have a separate interface that provides a variety of maintenance options. The machine will provide a means of alternating between the two types of users.
+
+Milestone 1
+Sketch a storyboard of end product that shows the flow of the application (e.g., user input, application output).
+Design a class using UML that models a product one might find in a snack machine. Submit UML for their product class. Submit a document with your UML.
+Design a class using UML that models a dispenser of products. Students should submit UML for their dispenser class. Submit your UML as a document.
+
+Milestone 2
+Part 1: Design an inheritance hierarchy using UML
+
+Create and submit a design document that includes a UML for the following class hierarchy:
+
+Product class
+Drink class and Snack class (sub-classes of Product)
+Candy class, Chips class and Gum class (sub-classes of Snack)
+Your diagram should be developed using a tool such as Visio or MS Word and should illustrate the relationship between the classes.
+
+Make sure that all classes include the following:
+
+No argument constructor
+Overloaded constructor that initializes the fields with the parameters
+Overloaded copy constructor that initializes the fields with a copy of another object’s fields
+A toString() method
+You should add other methods you think are relevant to your class.
+
+Part 2: Implementing the classes
+
+Using your UML, write the code to implement the following classes:
+
+Product (make this class abstract)
+Snack (make this class abstract)
+Drink
+Candy
+Chips
+Gum
+Dispenser (add a constructor that populates the Dispenser class array with a variety of Products)
+Finally, write a main method that creates a Dispenser and calls the Dispenser method displayProducts().
