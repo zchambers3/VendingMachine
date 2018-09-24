@@ -13,12 +13,12 @@ Date:
 Description:
 The vending machine will have two types of users – a customer, who will be able to select a product, and a BOSS, who will be able to maintain the collection of products in the machine. The machine itself will have a graphical interface that displays the available products and allows the user to make selections. The BOSS will have a separate interface that provides a variety of maintenance options. The machine will provide a means of alternating between the two types of users.
 
-Milestone 1
+## Milestone 1
 Sketch a storyboard of end product that shows the flow of the application (e.g., user input, application output).
 Design a class using UML that models a product one might find in a snack machine. Submit UML for their product class. Submit a document with your UML.
 Design a class using UML that models a dispenser of products. Students should submit UML for their dispenser class. Submit your UML as a document.
 
-Milestone 2
+## Milestone 2
 Part 1: Design an inheritance hierarchy using UML
 
 Create and submit a design document that includes a UML for the following class hierarchy:
@@ -49,5 +49,5 @@ Gum
 Dispenser (add a constructor that populates the Dispenser class array with a variety of Products)
 Finally, write a main method that creates a Dispenser and calls the Dispenser method displayProducts().
 
-Milestone 3
+## Milestone 3
 Update your Snack and Drink classes so that they implement the Comparable interface. Comparison is based on the name of the item and follows alphabetical ordering rules, ignoring case. In other words, the Drink “Cola” is less than the Drink “Tea”. Items with the same name should be ordered on price in ascending order. If two items have the same name and price, they are considered equal. Write a main method that tests your compareTo() method. Submit your updated class files.
