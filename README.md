@@ -51,3 +51,12 @@ Finally, write a main method that creates a Dispenser and calls the Dispenser me
 
 ## Milestone 3
 Update your Snack and Drink classes so that they implement the Comparable interface. Comparison is based on the name of the item and follows alphabetical ordering rules, ignoring case. In other words, the Drink “Cola” is less than the Drink “Tea”. Items with the same name should be ordered on price in ascending order. If two items have the same name and price, they are considered equal. Write a main method that tests your compareTo() method. Submit your updated class files.
+
+## Milestone 4
+Use JavaFX to create the user interface for dispensing the product. You can design the user interaction as you see fit, but at the minimum the following components must be present:
+
+1. A grid pane containing the images of the categories of available items (e.g., drinks, sweets, gum)
+2. Each category should be associated with a clickable button.
+3. Upon clicking the button, the display will change to show a different grid pane containing the available items in that category.
+4. Each item should include a description and price.
+5. Upon clicking the “done” button, the program will display, in a separate pane, the list of items, their price, and the total of the transaction.
