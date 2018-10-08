@@ -60,3 +60,20 @@ Use JavaFX to create the user interface for dispensing the product. You can desi
 3. Upon clicking the button, the display will change to show a different grid pane containing the available items in that category.
 4. Each item should include a description and price.
 5. Upon clicking the “done” button, the program will display, in a separate pane, the list of items, their price, and the total of the transaction.
+
+## Milestone 5
+
+Part 1: Manage Inventory
+
+1.	Create an inventory management class with appropriate methods that implement the functionality described below:  
+2.	Upon selecting an item the inventory, the stock for the item reduces by 1. 
+3.	Upon canceling a selection, the stock for the item should increase by 1. 
+4.	Define an additional event of your choosing in the context of interacting with a vending machine and implement it.  
+5.	Add a button that triggers the display of the entire inventory (for example to be used by the person who services the vending machine). The inventory should be displayed in a separate grid pane.  
+
+Part 2:  Animate GUI elements
+
+1.	Create an animation class to handle the visual “effects” described below:  
+2.	For each item, upon selection, animate it “falling into a basket.” 
+3.	Modify the existing the user interface as needed to accommodate the new elements.
+4.	Ensure that visual changes on the screen are matched with the functionality implemented in part one.  
