@@ -103,3 +103,73 @@ Part 2:
   a.	Define “low inventory” for inventory of three or less items available in a given vending machine.  
   
   b.	Read the data for each vending machine (see part 1) and generate a purchase order for each vending machine. For each vending machine, the purchase order should include the name of the machine, the name of the item, the quantity to order, and the total cost.
+  
+## Milestone 7
+
+Part 1: Customer Queue
+
+1.	Create a CSV text file that contains a list of customers and their intended purchases. For example:  
+  John, diet lemonade
+  John, chocolate bar
+  Susan, chips
+  ….
+  END 
+2.	Create a class ProcessCustomerQueue  that implements the following functionality:
+  
+  a.	Read the list of customers from a text file into a Queue structure. 
+  
+  b.	Implement the complete Queue functionality as individual methods: 
+    i.	First() 
+    ii.	Length()
+    iii.	In()
+    iv.	Out()
+    v.	isEmpty()
+  
+  c.	For each customer in the Queue: 
+    i.	Attempt to perform the requested purchase
+    
+    ii.	If the item is available, perform the transaction using the functionality implemented in earlier milestones
+    
+    iii.	If the item is unavailable, automatically generated an alternative selection choosing an available item and perform the transaction 
+    
+    iv.	Upon completing the transaction, remove the customer from the Queue.  
+
+Part 2:  Customer Queue GUI
+
+1.	Create a CustomerDisplay class, implementing an animated visual display of customers in the Queue (e.g., a line of small icons depicting persons) 
+2.	Create an animated visual display of each customer interacting with the vending machine. Be creative and use simple effects that illustrate the interaction.  
+3.	Display messages in text fields that indicate:  
+  
+  a.	The name of the customer and his/her selection
+  
+  b.	The total amount of the transaction
+  
+  c.	An alert if item is unavailable and the alternative selection made (consider making a random choice or another creative alternative). Display alerts as a text-based log (e.g., in a separate text field) so as not to interrupt the visualization of processing the queue of customers
+  
+  d.	A message indicating when all customers have been served and display the current inventory (you have already implemented this portion in the inventory milestone) 
+
+## Milestone 8
+
+1.	Review all your project milestones.  
+2.	Identify one additional, substantial, useful feature that could be added to your project.
+3.	Implement the GUI and code associated with that feature.  
+4.	Review the latest documentation you prepared for your project. Update your documentation to include the areas of responsibility of each member in your team.  Address difficulties or challenges you encountered as a team.  
+5.	Create a five-ten minute presentation of your project, addressing the following:
+  
+  a.	Overview of your approach to implementing the project
+  
+  b.	The GUI elements pointing out key functionality 
+  
+  c.	One or two interesting functions or features in your code that were particularly challenging to implement (show a code snippet)
+  
+  d.	Demonstrate your working project; Create a Screen cast recording showing the working project, including a voice over to accompany the project demonstration. Use CamStudio (Windows) or QuickTime (Mac) and output result to a video file.  The screencast recording can be used as a standalone presentation (e.g. on a portfolio website)
+  
+  e.	Share with the class how you overcame an unexpected challenge.  
+
+
+## Files
+
+Storyboard is located in the Storyboard folder.
+Product and Dispenser classes and their UMLs are in the Final_Project package.
+Inventory csv files are included for 2 seperate machines
+Image files are included for some products, the remaining are linked to external websites (Internet connection required)
